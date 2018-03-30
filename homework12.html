@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../standard.css" type="text/css">
+    <title>Comp 431: Homework</title>
+    <base target="_top"/>
+  </head>
+  <body>
+    <p>
+      Download the following two files and store them in the same directory.
+    </p>
+    <ul>
+      <li>
+        <a href="gibberish.html">http://cs.harding.edu/gfoust/classes/comp431/gibberish.html</a>
+      </li>
+      <li>
+        <a href="https://code.jquery.com/jquery-3.3.1.min.js">https://code.jquery.com/jquery-3.3.1.min.js</a>
+      </li>
+    </ul>
+    <p>
+      Look at the HTML source.  Notice that it includes the jQuery JavaScript
+      file, and that it assumes it is in the same directory as the HTML file.
+      It also incldes a JavaScript file (from the same directory)
+      named <kbd>gibberish.js</kbd>.  This is the file you are to write.
+    </p>
+    <p>
+      The code you will write should simply select nodes from the DOM using
+      jQuery and add the proper classes to them using
+      the <code>addClass</code> method.  You may <em>not</em> make any changes
+      to the HTML file.
+    </p>
+    <h3>Problems</h3>
+    <ol class="spaced">
+      <li>
+        All <code>&lt;p&gt;</code> tags should have class <code>text</code>.
+      </li>
+      <li>
+        All <code>&lt;li&gt;</code> tags inside an <code>&lt;ul&gt;</code>
+        should have class <code>spaced</code>.
+      </li>
+      <li>
+        Any tag whose class is <code>important</code> should have the
+        class <code>highlighted</code>.
+      </li>
+      <li>
+        The <code>&lt;div&gt;</code> tags which
+        contain <code>&lt;img&gt;</code> tags should have the
+        class <code>bordered</code>.
+      </li>
+      <li>
+        Any tags which are in the same <code>&lt;div&gt;</code> as
+        an <code>&lt;img&gt;</code> should have the
+        class <code>centered</code>.
+      </li>
+      <li>
+        The first <code>&lt;div&gt;</code> that contains
+        an <code>&lt;img&gt;</code> should have class <code>right</code>.
+      </li>
+      <li>
+        The last <code>&lt;div&gt;</code> that contains
+        an <code>&lt;img&gt;</code> should have class <code>left</code>.
+      </li>
+      <li>
+        The <em>even</em> numbered <code>&lt;li&gt;</code> tags (number 2,
+        number 4, ...) in an <code>&lt;ol&gt;</code> tag should have the
+        class <code>distinct</code>.
+      </li>
+      <li>
+        The tag whose id is <code>key</code> should have the class <code>blue</code>.
+      </li>
+      <li>
+        The tag whose id is <code>key</code> is in a <code>&lt;p&gt;</code>
+        tag inside a <code>&lt;div&gt;</code>.  Any <code>&lt;em&gt;</code>
+        tags in that same div should have the class <code>bold</code>.
+      </li>
+    </ol>
+    <p>
+      When you are done, your page should look like this:
+    </p>
+    <p>
+      <a href="gibberish_result.html">http://cs.harding.edu/gfoust/classes/comp431/gibberish_result.html</a>
+    </p>
+  </body>
+</html>
